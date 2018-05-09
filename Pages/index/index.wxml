@@ -1,0 +1,9 @@
+<!--Pages/index/index.wxml-->
+<navigator url='/Pages/MessageList/messageList'>查看通知列表</navigator>
+
+<view wx:if="{{isEmptyGroup}}" class="container">
+  <text style="display:block; text-align:center">您还没有加入任何集团!</text>
+  <button type="primary" class="join">搜索已有的集团</button>
+  <button class="join">创建新的集团</button>
+  
+</view>

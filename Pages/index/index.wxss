@@ -1,0 +1,14 @@
+/* Pages/index/index.wxss */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height:100vh
+}
+
+.join {
+  width: 75%;
+  background-color: #3A5FCD;
+  color:#fff
+}

@@ -1,0 +1,11 @@
+{
+  "pages":[
+    "Pages/index/index",
+    "Pages/MessageList/messageList",
+    "Pages/messageDetails/messageDetails",
+    "Pages/messageEdit/messageEdit"
+  ],
+  "window":{
+    "navigationBarBackgroundColor":"#3A5FCD"
+  }
+}
