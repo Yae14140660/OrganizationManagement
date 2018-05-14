@@ -1,0 +1,28 @@
+.container{
+  background-color:#f0f0f0;
+  height:100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.text{
+  font-size:30rpx;
+  color: #A8A8A8;
+  margin-top: 50rpx;
+}
+
+.image{
+  margin-top: 300rpx;
+}
+
+.container .button{
+  width: 50%;
+  height: 70rpx;
+  border-radius: 10rpx;
+  font-size: 30rpx;
+  margin-top: 100rpx;
+  color: #fff;
+  background: #BABABA;
+}
+

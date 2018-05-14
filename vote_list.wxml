@@ -1,0 +1,7 @@
+<view class='container'>
+<view class='text'>暂无投票，赶快去发布投票吧！</view>
+  <view class='image'>
+    <image style='width:200rpx;height:200rpx;' src='/Icons/vote.png'></image>
+  </view>
+  <button type="default" class="button" bindtap="clickButton">发起投票</button>     
+</view>
