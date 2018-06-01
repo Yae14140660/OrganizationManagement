@@ -1,0 +1,19 @@
+.upload-img-btn{
+  border-radius: 40rpx;
+  width:600rpx;
+  margin:20rpx auto;
+}
+.img-v{
+  display: flex;
+  flex-flow: row wrap;
+  align-content: flex-start;
+  text-align: center;
+}
+.img{
+  width:250rpx;
+  height:300rpx;
+}
+.imgItem{
+  width:240rpx;
+  height:240rpx;
+}

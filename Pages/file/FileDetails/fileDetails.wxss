@@ -1,0 +1,11 @@
+.title{
+  font-weight:bold; 
+  font-size:45rpx; 
+  display:block;
+  text-align: center
+}
+
+.container{
+  background-color: #fff
+}
+

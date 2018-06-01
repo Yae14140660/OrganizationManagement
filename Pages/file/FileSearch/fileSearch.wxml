@@ -1,0 +1,4 @@
+<view class="searchFile">
+  <image src="/Icons/search2.png"></image>
+  <input type="text" placeholder="搜索文件名/上传者" placeholder-class='placeholder'></input>
+</view>

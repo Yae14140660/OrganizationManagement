@@ -1,0 +1,46 @@
+<view class='container'>
+  <view class='title'>
+    <input type='text' placeholder='请输入投票主题(2-80字)'></input>
+  </view>
+
+  <view class='choose'>
+    <view class='left'>
+      <image style='width:60rpx;height:60rpx;align-align:center' src='../../../Icons/vote_edit-1.png'> </image>
+    </view>
+    <view class='right'>
+      <input placeholder='选项1'></input>
+      <input placeholder='选项2'></input>     
+      <input placeholder='添加选项'></input> 
+    </view>    
+  </view>
+
+  <view class='text'>最多支持15个选项，每个选项不能超过40字</view>
+
+  <view class='content'>
+    <view class='vote_type'>
+      <input placeholder='投票类型'></input>
+      <picker mode="selector" range="{{array1}}" value="{{index}}" bindchange="listenerPickerSelected1">
+       <text>{{array1[index]}}</text>
+      </picker>
+    </view>
+    <view class='vote_end'>
+      <input placeholder='结束时间'></input>  
+      <picker mode="date" value="{{date}}" start="{{start_time}}" end="{{end_time}}" bindchange="listenerDatePickerSelected">
+        <text>{{date}}</text>
+      </picker> 
+    </view>
+    <view class='remind'>
+      <input placeholder='提醒'></input>  
+      <picker mode="selector" range="{{array2}}" value="{{index}}" bindchange="listenerPickerSelected2">
+        <text>{{array2[index]}}</text> 
+      </picker>
+    </view>
+    <view class='annoy_vote'>
+      <input placeholder='匿名投票'></input>  
+      <switch></switch> 
+    </view>
+  </view>
+
+  <button type="default" class="button" bindtap="clickButtonToVote">发布投票</button>   
+
+</view>

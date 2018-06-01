@@ -1,0 +1,25 @@
+/* Pages/messageEdit/messageEdit.wxss */
+
+input  {
+  background-color: #fff;
+  margin-bottom: 20rpx;
+  margin-top:20rpx
+}
+
+textarea {
+  width:100%;
+  height:50%;
+  background-color: #fff;
+  margin-bottom: 20rpx
+}
+
+button {
+  width:75%;
+  background-color: #3A5FCD;
+  color:#fff;
+  margin-top:20rpx
+}
+
+.imageContainer{
+  background-color: #fff
+}

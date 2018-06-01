@@ -1,0 +1,61 @@
+.searchFile{
+  width: 750rpx;
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.searchFile image{
+  width: 50rpx;
+  height: 50rpx;
+}
+
+.container scroll-view view{
+  height: 150rpx;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.container scroll-view view image{
+  width: 130rpx;
+  height: 130rpx;
+}
+.container .details{
+  display: flex;
+  justify-content: space-between;
+}
+.container .details .nameAndPub{
+  width: 470rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.container .details .nameAndPub .name{
+  font-size: 18px;
+}
+.container .details .nameAndPub .publish{
+  color: #666;
+  font-size: 14px;
+  margin-top: 10rpx;
+}
+.container .details .time{
+  padding-top: 20rpx;
+  font-size: 12px;
+  color: #666;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.container .append{
+  width:120rpx;
+  height:120rpx;
+  margin: 0 auto;
+  position: fixed;
+  bottom: 0;
+  left:50%;
+  margin-left:-60rpx;
+}

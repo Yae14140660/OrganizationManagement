@@ -1,0 +1,29 @@
+<button class="searchFile" bindtap='onClickSearch'>
+  <image src="/Icons/search.png"></image>
+  搜索文件名/上传者
+</button>
+<view class="container">
+  <scroll-view scroll-y style='height:1100rpx'>
+    <view wx:for="{{fileList}}" style="margin-bottom:20rpx; background-color:#fff"
+  bindtap='onClickFile'>
+      <image wx:if="{{item.isPPT}}" src="/Icons/PPT.png" mode="aspectFit"></image>
+      <image wx:elif="{{item.isWORD}}" src="/Icons/WORD.png" mode="aspectFit"></image>
+      <image wx:elif="{{item.isPDF}}" src="/Icons/PDF.png" mode="aspectFit"></image>
+      <image wx:else src="/Icons/file.png" mode="aspectFit"></image>
+      <view class="details">
+        <view class="nameAndPub">
+          <text class="name">{{item.name}}</text>
+          <text class="publish">
+            <text class="size">{{item.size}}</text>
+            <text> 来自 </text>
+            <text class="publisher" style="color:blue;" bindtap="navigatorFunc">{{item.publisher}}</text>
+          </text>
+        </view>
+        <view class="time">
+          <text>{{item.time}}</text>
+        </view>
+      </view>
+    </view>
+  </scroll-view>
+  <image src='/Icons/addition_fill.png' class='append' bindtap='messageAppend'></image>
+</view>

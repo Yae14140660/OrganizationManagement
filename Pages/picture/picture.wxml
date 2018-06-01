@@ -1,0 +1,15 @@
+<view wx:if="{{imgs[0]}}" style="text-align:center;">
+  <image src="{{imgs[0]}}" data-index="{{index}}" mode="aspectFill" bindtap="previewImg"></image>
+</view>
+<view class="upload-img-btn" bindtap="chooseImg">
+  <button>
+    <!--image style="width:40rpx;height:40rpx;" src="/images/pic.png"></image-->     上传图片
+  </button>
+</view>
+
+<view class="img-v">
+  <view class="img" wx:for="{{imgs}}" wx:for-item="item" wx:key="*this">
+    <image src="{{item}}"  class="imgItem" data-index="{{index}}" mode="aspectFill" bindtap="previewImg"></image>
+    <view class="delete-btn" data-index="{{index}}" catchtap="deleteImg"><image style="width:40rpx;height:40rpx;" src="/images/del.png"></image></view>
+  </view>
+</view>

@@ -1,0 +1,38 @@
+/* Pages/index/index.wxss */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height:100vh
+}
+
+.join {
+  width: 75%;
+  background-color: #3A5FCD;
+  color:#fff
+}
+
+.userInfo-Avatar{
+  height: 150rpx;
+  width:150rpx;
+  border-radius: 55%
+}
+
+.userInfo{
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+
+.userInfo-nickName{
+  color:#3A5FCD
+}
+
+.container{
+  height:60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around
+}
