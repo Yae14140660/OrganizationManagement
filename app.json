@@ -1,11 +1,43 @@
 {
   "pages":[
-    "Pages/index/index",
-    "Pages/MessageList/messageList",
-    "Pages/messageDetails/messageDetails",
-    "Pages/messageEdit/messageEdit"
+    "Pages/index/index",    
+    "Pages/login/login",
+    "Pages/message/MessageList/messageList",
+    "Pages/message/messageDetails/messageDetails",
+    "Pages/message/messageEdit/messageEdit",
+    "Pages/vote/vote_detail/vote_detail",
+    "Pages/vote/vote_edit/vote_edit",
+    "Pages/vote/vote_list/vote_list",
+    "Pages/file/FileDetails/fileDetails",
+    "Pages/file/FileList/fileList",
+    "Pages/file/FileSearch/fileSearch",
+    "Pages/picture/picture"
   ],
   "window":{
     "navigationBarBackgroundColor":"#3A5FCD"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "Pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "Pages/message/MessageList/messageList",
+        "text": "通知"
+      },
+      {
+        "pagePath": "Pages/vote/vote_list/vote_list",
+        "text": "投票"
+      },
+      {
+        "pagePath": "Pages/file/FileList/fileList",
+        "text": "文件"
+      },
+      {
+        "pagePath":"Pages/picture/picture",
+        "text":"图片"
+      }
+    ]
   }
 }
